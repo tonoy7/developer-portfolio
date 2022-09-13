@@ -2,15 +2,23 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 h1 {
   font-size: 50px;
 }
+#exp {
+  margin-left: 3%;
+}
+h2 {
+  font-size: 40px;
+}
 .orange {
   color: orangered;
 }
-section {
+.flexible-container {
   display: flex;
+  margin-bottom: 5%;
 }
 .half-width {
   width: 50%;
@@ -19,12 +27,12 @@ section {
   text-align: justify;
 }
 .half-width img {
-  width: 80%;
+  width: 90%;
   padding-top: 5%;
 }
-.hire-button {
+
+.button {
   text-decoration: none;
-  /* background-color: orangered; */
   background-image: linear-gradient(tomato, orangered);
   color: aliceblue;
   font-weight: 600;
@@ -34,4 +42,42 @@ section {
 .top-banner {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+}
+.middle-banner {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 8%;
+  margin: 0;
+}
+
+.box-item {
+  box-shadow: 10px 10px 50px gray;
+  width: 45%;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-left: 3%;
+  margin-right: 3%;
+  text-align: justify;
+  border-radius: 15px;
+}
+.bottom-banner {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 80px;
+}
+#left-box {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+#right-box {
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(17, 21, 243), rgb(255, 4, 159));
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
+  opacity: 70%;
 }
