@@ -7,6 +7,9 @@ body {
 h1 {
   font-size: 50px;
 }
+p {
+  opacity: 75%;
+}
 #exp {
   margin-left: 3%;
 }
